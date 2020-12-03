@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+
+.formulario{
+    background-color: gray;
+    
+    width: 50%;
+    
+}

@@ -1,0 +1,69 @@
+body{
+    background: salmon;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-conteiner{
+    background: saddlebrown;
+    border: 1px solid black;
+    
+
+}
+
+#mostrar-todo-container{
+    background: seagreen;
+}
+
+#todolist{
+
+    background: silver;
+    width: 441.328px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+ 
+    
+}
+
+/* form[class^="formulario"]{
+    display: flex;
+} */
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario1{
+display: flex;
+vertical-align: middle;
+
+}
+
+
+
+.formulario2{
+    display:flex;
+    vertical-align: middle;
+}
+
+input[type="submit"]{
+    background:#1B85F5 ;
+    border: none;
+    color: white;
+    font-weight: bolder;    
+    padding: 10px;
+}
+
+input[type="text"]{
+    width: 300px;
+}
+/* input[type="checkbox"]{
+    width: 300px;
+} */
+

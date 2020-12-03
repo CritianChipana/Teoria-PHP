@@ -1,0 +1,69 @@
+body{
+    background: #1C5D91;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.contenedor-padre{
+    border: 1px solid black;
+    height: 700px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center; 
+    justify-content: center;
+
+}
+
+.menu{
+    border: 1px double black;
+    background: white;
+    width: 150px;
+   
+}
+
+.inicio{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+    
+}
+
+li{
+    list-style: none;
+    list-style-type: none;
+    
+}
+
+input[type="submit"]{
+    padding:10px 0 ;
+    background: #39BE2B;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+
+
+
+.formulario{
+    border: 1px solid black;
+    background: white;
+    padding: 25px;
+}
+
+.center-content{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+}
+
+.registrar{
+    font-weight: bolder;
+    color: black;
+}

@@ -1,0 +1,17 @@
+body{
+    background: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.contenedor{
+    background: white;
+    padding: 15px;
+    height: auto;
+    width: 300px;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funciones</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
     
@@ -16,10 +16,9 @@
 
             <input type="submit" value="Calcular">
         </form>
-
         <?php
             include("operaciones.php");
-             validar_campos();
+             echo validar_campos();
         ?>
 
     </div>
